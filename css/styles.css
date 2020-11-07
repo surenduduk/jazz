@@ -1,0 +1,15 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+p, ul li {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav a:hover {
+	color: #ffc107 !important; 
+}
