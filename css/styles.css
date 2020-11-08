@@ -45,3 +45,11 @@ nav a:hover {
 .mobile-phone-icon a:hover {
 	text-decoration: none;
 }
+
+@media screen and (max-width: 992px)  {
+	.contacts-header {
+		position: absolute;
+    	top: 18px;
+    	right: 20px;
+	}
+}
