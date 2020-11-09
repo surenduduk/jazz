@@ -14,7 +14,9 @@ nav a:hover {
 	color: #ffc107 !important; 
 }
 
-
+.mobile-phone-icon {
+	display: none;
+}
 
 @media screen and (max-width: 992px)  {
 	.contacts-header {
@@ -24,6 +26,7 @@ nav a:hover {
 	}
 
 	.mobile-phone-icon {
+		display: block;
 		position: fixed;
 		bottom: 30px;
 		right: 30px;
