@@ -14,42 +14,41 @@ nav a:hover {
 	color: #ffc107 !important; 
 }
 
-.mobile-phone-icon {
-	position: fixed;
-	bottom: 30px;
-	right: 30px;
-	width: 60px;
-	height: 60px;
-	
-	background: #28a745;
-	
-	border-radius: 55px;
-}
 
-.mobile-phone-icon:hover {
-	opacity: .5;
-}
-
-
-.mobile-phone-icon a {
-	color: white;
-	font-size: 30px;
-	width: 100%;
-	height: 100%;
-	cursor: pointer;
-	align-items: center;
-	justify-content: center;
-	display: flex;
-}
-
-.mobile-phone-icon a:hover {
-	text-decoration: none;
-}
 
 @media screen and (max-width: 992px)  {
 	.contacts-header {
 		position: absolute;
     	top: 18px;
     	right: 20px;
+	}
+
+	.mobile-phone-icon {
+		position: fixed;
+		bottom: 30px;
+		right: 30px;
+		width: 60px;
+		height: 60px;
+		background: #28a745;
+		border-radius: 55px;
+	}
+
+	.mobile-phone-icon:hover {
+		opacity: .5;
+	}
+
+	.mobile-phone-icon a {
+		color: white;
+		font-size: 30px;
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+	}
+
+	.mobile-phone-icon a:hover {
+		text-decoration: none;
 	}
 }
