@@ -18,6 +18,14 @@ nav a:hover {
 	display: none;
 }
 
+.header {
+	background: url(../img/DSC02657.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 @media screen and (max-width: 992px)  {
 	.contacts-header {
 		position: absolute;
